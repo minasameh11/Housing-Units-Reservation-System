@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Hotel.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Hotel.gd5o6vedgh.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\0c75edd6-9564-47a5-b954-46be32510cc4.jpeg",
+      "PackagePath": "staticwebassets\\images\\0c75edd6-9564-47a5-b954-46be32510cc4.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\13136486-05db-40cb-ba33-2d6abe722655.png",
+      "PackagePath": "staticwebassets\\images\\13136486-05db-40cb-ba33-2d6abe722655.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\13f2889b-36b2-4cba-aeeb-6e6fc985e84c.jpeg",
+      "PackagePath": "staticwebassets\\images\\13f2889b-36b2-4cba-aeeb-6e6fc985e84c.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\199a773c-5d2f-4e6d-9e21-5310c45d4ecd.png",
+      "PackagePath": "staticwebassets\\images\\199a773c-5d2f-4e6d-9e21-5310c45d4ecd.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\1ca23b3b-0824-463f-9aa2-1607765058aa.jpeg",
+      "PackagePath": "staticwebassets\\images\\1ca23b3b-0824-463f-9aa2-1607765058aa.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\24847a3b-e74c-4f56-88e5-c74bc95c1cff.jpeg",
+      "PackagePath": "staticwebassets\\images\\24847a3b-e74c-4f56-88e5-c74bc95c1cff.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\30723b7f-227f-4032-baee-23444b0442b6.jpg",
+      "PackagePath": "staticwebassets\\images\\30723b7f-227f-4032-baee-23444b0442b6.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\3156e8ca-6cf5-4d39-845b-cfb2936b0669.jpg",
+      "PackagePath": "staticwebassets\\images\\3156e8ca-6cf5-4d39-845b-cfb2936b0669.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\35004095-b697-4868-887e-ac930bd7e31e.jpeg",
+      "PackagePath": "staticwebassets\\images\\35004095-b697-4868-887e-ac930bd7e31e.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\4325ef9a-ee62-4525-ab65-225dde1ab31f.png",
+      "PackagePath": "staticwebassets\\images\\4325ef9a-ee62-4525-ab65-225dde1ab31f.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\437477d3-a799-425a-891b-9063afa152cd.jpg",
+      "PackagePath": "staticwebassets\\images\\437477d3-a799-425a-891b-9063afa152cd.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\4c5e94bb-517b-45df-8282-536617f142f4.png",
+      "PackagePath": "staticwebassets\\images\\4c5e94bb-517b-45df-8282-536617f142f4.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\51775a0a-7119-4780-aa8c-4154808efec1.png",
+      "PackagePath": "staticwebassets\\images\\51775a0a-7119-4780-aa8c-4154808efec1.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\5568ccb2-26a2-46e7-99e1-022114b868b9.jpeg",
+      "PackagePath": "staticwebassets\\images\\5568ccb2-26a2-46e7-99e1-022114b868b9.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\572e6b8c-c91e-4cf4-aa35-847eaa3f2987.png",
+      "PackagePath": "staticwebassets\\images\\572e6b8c-c91e-4cf4-aa35-847eaa3f2987.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\6efc22b9-1f32-473b-9ce0-5d71220d1b97.png",
+      "PackagePath": "staticwebassets\\images\\6efc22b9-1f32-473b-9ce0-5d71220d1b97.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\77a2bc03-6dd9-4877-bb28-88c857245f47.png",
+      "PackagePath": "staticwebassets\\images\\77a2bc03-6dd9-4877-bb28-88c857245f47.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\7dc5e53a-3525-4427-a2aa-8c378f40c9c1.jpeg",
+      "PackagePath": "staticwebassets\\images\\7dc5e53a-3525-4427-a2aa-8c378f40c9c1.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\7dca3ebf-a284-4474-aaa0-ca77b79c75b4.jpeg",
+      "PackagePath": "staticwebassets\\images\\7dca3ebf-a284-4474-aaa0-ca77b79c75b4.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\872db3b1-141f-4eda-b753-7ebc8609f7ec.jpg",
+      "PackagePath": "staticwebassets\\images\\872db3b1-141f-4eda-b753-7ebc8609f7ec.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\880eb222-f5d1-4b30-9fa7-c417b688cf70.png",
+      "PackagePath": "staticwebassets\\images\\880eb222-f5d1-4b30-9fa7-c417b688cf70.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\989d9e65-4ef8-438b-947c-f4d95e50a677.jpeg",
+      "PackagePath": "staticwebassets\\images\\989d9e65-4ef8-438b-947c-f4d95e50a677.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\9a84674e-a047-49d3-87ba-5225db64b22f.png",
+      "PackagePath": "staticwebassets\\images\\9a84674e-a047-49d3-87ba-5225db64b22f.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\a8a4de11-51b6-404d-a160-ddc4b3693318.png",
+      "PackagePath": "staticwebassets\\images\\a8a4de11-51b6-404d-a160-ddc4b3693318.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\b0b17f7c-740f-4f2c-b89a-cadf8fc833a2.png",
+      "PackagePath": "staticwebassets\\images\\b0b17f7c-740f-4f2c-b89a-cadf8fc833a2.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\c56abc96-624c-4f81-933e-ff1990d6324c.jpg",
+      "PackagePath": "staticwebassets\\images\\c56abc96-624c-4f81-933e-ff1990d6324c.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\c635d20f-324e-482b-a791-8f3e09c9bbc8.jpg",
+      "PackagePath": "staticwebassets\\images\\c635d20f-324e-482b-a791-8f3e09c9bbc8.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\cb48a43b-633b-4b9e-ba7f-60d2f0ef4eab.jpg",
+      "PackagePath": "staticwebassets\\images\\cb48a43b-633b-4b9e-ba7f-60d2f0ef4eab.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\cbb3889c-74a9-4d8c-bf14-44bb27fa1558.png",
+      "PackagePath": "staticwebassets\\images\\cbb3889c-74a9-4d8c-bf14-44bb27fa1558.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\cfa3cec8-0a22-45f5-8a80-97f9eaaf69bf.png",
+      "PackagePath": "staticwebassets\\images\\cfa3cec8-0a22-45f5-8a80-97f9eaaf69bf.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\d1a56001-54ba-4353-946d-518e6438eb23.png",
+      "PackagePath": "staticwebassets\\images\\d1a56001-54ba-4353-946d-518e6438eb23.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\d27f3808-5c80-4c9e-bf46-24c060d04c3c.jpeg",
+      "PackagePath": "staticwebassets\\images\\d27f3808-5c80-4c9e-bf46-24c060d04c3c.jpeg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\d4671564-8ab0-466c-af57-8d4fba9c7865.png",
+      "PackagePath": "staticwebassets\\images\\d4671564-8ab0-466c-af57-8d4fba9c7865.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\da4c0d51-8cb7-4893-a41f-59cf6171e739.png",
+      "PackagePath": "staticwebassets\\images\\da4c0d51-8cb7-4893-a41f-59cf6171e739.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\e076a09c-5314-4817-93bd-4816bc413432.png",
+      "PackagePath": "staticwebassets\\images\\e076a09c-5314-4817-93bd-4816bc413432.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\ea6511c9-57f4-4aa3-bd10-ce059aa5dac2.png",
+      "PackagePath": "staticwebassets\\images\\ea6511c9-57f4-4aa3-bd10-ce059aa5dac2.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\f54d67b7-ceea-4f13-8e38-5d42d9164405.png",
+      "PackagePath": "staticwebassets\\images\\f54d67b7-ceea-4f13-8e38-5d42d9164405.png"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\images\\f7444b34-bfb7-4a79-bc3f-c0192e77ae3f.jpg",
+      "PackagePath": "staticwebassets\\images\\f7444b34-bfb7-4a79-bc3f-c0192e77ae3f.jpg"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\iti\\MVC\\فنادق\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Hotel.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Hotel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Hotel.props",
+      "PackagePath": "build\\Hotel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Hotel.props",
+      "PackagePath": "buildMultiTargeting\\Hotel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Hotel.props",
+      "PackagePath": "buildTransitive\\Hotel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

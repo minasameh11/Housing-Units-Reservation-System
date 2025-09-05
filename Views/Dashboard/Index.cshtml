@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "لوحة التحكم";
+}
+
+<h2 class="mb-4">📊 لوحة التحكم</h2>
+
+<div class="row g-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary shadow">
+            <div class="card-body">
+                <h5>إجمالي الوحدات</h5>
+                <h3>@ViewBag.TotalUnits</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-success shadow">
+            <div class="card-body">
+                <h5>الوحدات المتاحة</h5>
+                <h3>@ViewBag.AvailableUnits</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-warning shadow">
+            <div class="card-body">
+                <h5>الحجوزات النشطة</h5>
+                <h3>@ViewBag.ActiveBookings</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-danger shadow">
+            <div class="card-body">
+                <h5>إجمالي المصاريف</h5>
+                <h3>@ViewBag.TotalExpenses ج.م</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4" />
+
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card text-white bg-info shadow">
+            <div class="card-body">
+                <h5>إجمالي الإيرادات</h5>
+                <h3>@ViewBag.TotalIncome ج.م</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card text-white bg-dark shadow">
+            <div class="card-body">
+                <h5>صافي الربح</h5>
+                <h3>@ViewBag.NetProfit ج.م</h3>
+            </div>
+        </div>
+    </div>
+</div>

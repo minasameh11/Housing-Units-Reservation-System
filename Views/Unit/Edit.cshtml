@@ -1,0 +1,139 @@
+﻿@model ProjectName.Models.Unit
+
+@{
+    ViewData["Title"] = "تعديل الوحدة";
+}
+
+<h2 class="mb-3">تعديل الوحدة</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    <input type="hidden" asp-for="UnitId" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricePerNight"></label>
+        <input asp-for="PricePerNight" class="form-control" />
+        <span asp-validation-for="PricePerNight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Capacity"></label>
+        <input asp-for="Capacity" class="form-control" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    @* <div class="form-check mb-3"> *@
+    @*     <input asp-for="IsAvailable" class="form-check-input" /> *@
+    @*     <label asp-for="IsAvailable" class="form-check-label"></label> *@
+    @* </div> *@
+
+    <!-- الصور القديمة -->
+    <div class="mb-3">
+        <label>الصور الحالية</label>
+        <div class="row" id="oldImagesContainer">
+            @foreach (var img in Model.Images)
+            {
+                <div class="col-md-3 mb-3" data-id="@img.Id">
+                    <div class="card">
+                        <img src="@img.ImagePath" class="card-img-top" style="height:150px;object-fit:cover;">
+                        <div class="card-body text-center">
+                            <button type="button" class="btn btn-sm btn-danger delete-old" data-id="@img.Id">حذف</button>
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" type="radio" name="MainImageId" value="@img.Id" @(Model.ImagePath == img.ImagePath ? "checked" : "")>
+                                <label class="form-check-label">رئيسية</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- رفع صور جديدة -->
+    <div class="form-group">
+        <label>إضافة صور جديدة</label>
+        <input type="file" name="NewImages" id="imageInput" multiple class="form-control" />
+    </div>
+
+    <!-- عرض الصور الجديدة قبل الحفظ -->
+    <div id="previewContainer" class="row mt-3"></div>
+
+    <input type="hidden" name="MainImageIndex" id="MainImageIndex" />
+
+    <button type="submit" class="btn btn-primary mt-3">تحديث</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">رجوع</a>
+</form>
+
+@section Scripts {
+    <script>
+        // حذف صورة قديمة عبر AJAX
+        document.querySelectorAll(".delete-old").forEach(btn => {
+            btn.addEventListener("click", function () {
+                let imgId = this.dataset.id;
+                if (confirm("هل أنت متأكد من حذف هذه الصورة؟")) {
+                    fetch(`/Unit/DeleteImage/${imgId}`, {
+                        method: "POST",
+                        headers: {
+                            "X-Requested-With": "XMLHttpRequest",
+                            "X-CSRF-TOKEN": document.querySelector('input[name="__RequestVerificationToken"]').value
+                        }
+                    }).then(res => {
+                        if (res.ok) {
+                            document.querySelector(`[data-id='${imgId}']`).remove();
+                        }
+                    });
+                }
+            });
+        });
+
+        // معاينة الصور الجديدة قبل الحفظ
+        let previewContainer = document.getElementById("previewContainer");
+        let mainImageIndexInput = document.getElementById("MainImageIndex");
+
+        document.getElementById("imageInput").addEventListener("change", function (e) {
+            previewContainer.innerHTML = "";
+            let files = Array.from(e.target.files);
+
+            files.forEach((file, index) => {
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    let col = document.createElement("div");
+                    col.classList.add("col-md-3", "mb-3");
+
+                    col.innerHTML = `
+                        <div class="card">
+                            <img src="${e.target.result}" class="card-img-top" style="height:150px;object-fit:cover;">
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-sm btn-danger remove-btn">حذف</button>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="mainImage" value="${index}">
+                                    <label class="form-check-label">رئيسية</label>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    previewContainer.appendChild(col);
+
+                    col.querySelector(".remove-btn").addEventListener("click", function () {
+                        col.remove();
+                    });
+
+                    col.querySelector("input[name='mainImage']").addEventListener("change", function () {
+                        mainImageIndexInput.value = index;
+                    });
+                }
+                reader.readAsDataURL(file);
+            });
+        });
+    </script>
+}

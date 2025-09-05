@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProjectName.Models.Booking>
+
+<h2 class="mb-4 text-center">📅 قائمة الحجوزات</h2>
+
+<!-- حقل البحث -->
+<form method="get" class="mb-3 d-flex justify-content-center gap-2">
+    <input type="text" name="search" class="form-control form-control-sm"
+           placeholder="ابحث باسم العميل أو السمسار..."
+           value="@Context.Request.Query["search"]" style="max-width:300px;">
+    <button type="submit" class="btn btn-primary btn-sm">🔍 بحث</button>
+    <a href="/Booking/Index" class="btn btn-outline-secondary btn-sm">🗑 إلغاء</a>
+</form>
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered align-middle text-center">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">الوحدة</th>
+                <th scope="col">العميل</th>
+                <th scope="col">التواريخ</th>
+                <th scope="col">الإجمالي</th>
+                <th scope="col">التفاصيل</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.Unit?.Name</td>
+                    <td>@booking.CustomerName</td>
+                    <td>@booking.StartDate.ToString("yyyy-MM-dd") - @booking.EndDate.ToString("yyyy-MM-dd")</td>
+                    <td>@string.Format("{0:N2}", booking.TotalPrice) ج.م</td>
+                    <td>
+                        <a href="/Booking/Details/@booking.BookingId" class="btn btn-info btn-sm">
+                            📄 عرض التفاصيل
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    table th, table td {
+        vertical-align: middle;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .btn-info {
+        font-size: 0.85rem;
+        padding: 0.25rem 0.5rem;
+    }
+</style>

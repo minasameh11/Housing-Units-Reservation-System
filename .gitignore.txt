@@ -1,0 +1,23 @@
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Packages
+packages/
+*.nupkg
+
+# Database
+*.mdf
+*.ldf
+*.dbmdl
+
+# Logs
+*.log
+
+# Others
+*.vsidx

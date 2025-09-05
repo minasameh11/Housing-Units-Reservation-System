@@ -1,0 +1,35 @@
+﻿@model ProjectName.Models.Booking
+@using System.Globalization
+
+@{
+    var numberFormat = CultureInfo.CurrentCulture;
+}
+
+<div class="card shadow mb-4 p-3">
+    <h3>تفاصيل الحجز</h3>
+    <hr />
+
+    <p><strong>العميل:</strong> @Model.CustomerName</p>
+    <p><strong>رقم الهاتف:</strong> @Model.CustomerPhone</p>
+
+    <p><strong>الوحدة:</strong> @Model.Unit?.Name</p>
+    <p><strong>من:</strong> @Model.StartDate.ToString("yyyy-MM-dd")</p>
+    <p><strong>إلى:</strong> @Model.EndDate.ToString("yyyy-MM-dd")</p>
+
+    <p><strong>السعر الإجمالي:</strong> @String.Format(numberFormat, "{0:N2}", Model.TotalPrice) ج.م</p>
+    <p><strong>المبلغ المدفوع:</strong> @String.Format(numberFormat, "{0:N2}", Model.AmountPaid) ج.م</p>
+    <p><strong>المبلغ المتبقي:</strong> @String.Format(numberFormat, "{0:N2}", Model.AmountRemaining) ج.م</p>
+
+    @if (!string.IsNullOrEmpty(Model.Notes))
+    {
+        <p><strong>ملاحظات:</strong> @Model.Notes</p>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.BrokerName))
+    {
+        <p><strong>سمسار:</strong> @Model.BrokerName - @Model.BrokerPhone</p>
+    }
+
+    <a href="/Unit/Details/@Model.UnitId" class="btn btn-secondary mt-3">⬅ رجوع للوحدة</a>
+    <a href="/Booking/Edit/@Model.BookingId" class="btn btn-primary mt-3">✏ تعديل الحجز</a>
+</div>

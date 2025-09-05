@@ -1,0 +1,94 @@
+﻿@model ProjectName.Models.Unit
+
+@{
+    ViewData["Title"] = "إضافة وحدة جديدة";
+}
+
+<h2 class="mb-3">إضافة وحدة جديدة</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricePerNight"></label>
+        <input asp-for="PricePerNight" class="form-control" />
+        <span asp-validation-for="PricePerNight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Capacity"></label>
+        <input asp-for="Capacity" class="form-control" />
+        <span asp-validation-for="Capacity" class="text-danger"></span>
+    </div>
+
+    @* <div class="form-check mb-3"> *@
+    @*     <input asp-for="IsAvailable" class="form-check-input" /> *@
+    @*     <label asp-for="IsAvailable" class="form-check-label"></label> *@
+    @* </div> *@
+
+    <!-- رفع الصور -->
+    <div class="form-group">
+        <label>صور الوحدة</label>
+        <input type="file" name="Images" id="imageInput" multiple class="form-control" />
+    </div>
+
+    <!-- عرض الصور قبل الحفظ -->
+    <div id="previewContainer" class="row mt-3"></div>
+
+    <input type="hidden" name="MainImageIndex" id="MainImageIndex" />
+
+    <button type="submit" class="btn btn-primary mt-3">حفظ</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">رجوع</a>
+</form>
+
+@section Scripts {
+    <script>
+        let previewContainer = document.getElementById("previewContainer");
+        let mainImageIndexInput = document.getElementById("MainImageIndex");
+
+        document.getElementById("imageInput").addEventListener("change", function (e) {
+            previewContainer.innerHTML = "";
+            let files = Array.from(e.target.files);
+
+            files.forEach((file, index) => {
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    let col = document.createElement("div");
+                    col.classList.add("col-md-3", "mb-3");
+
+                    col.innerHTML = `
+                        <div class="card">
+                            <img src="${e.target.result}" class="card-img-top" style="height:150px;object-fit:cover;">
+                            <div class="card-body text-center">
+                                <button type="button" class="btn btn-sm btn-danger remove-btn">حذف</button>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="mainImage" value="${index}">
+                                    <label class="form-check-label">رئيسية</label>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    previewContainer.appendChild(col);
+
+                    col.querySelector(".remove-btn").addEventListener("click", function () {
+                        col.remove();
+                    });
+
+                    col.querySelector("input[name='mainImage']").addEventListener("change", function () {
+                        mainImageIndexInput.value = index;
+                    });
+                }
+                reader.readAsDataURL(file);
+            });
+        });
+    </script>
+}

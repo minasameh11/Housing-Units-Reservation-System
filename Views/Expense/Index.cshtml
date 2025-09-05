@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ProjectName.Models.Expense>
+
+<h2 class="mb-4">💰 قائمة المصاريف</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-light">
+        <tr>
+            <th>الوحدة</th>
+            <th>الوصف</th>
+            <th>المبلغ</th>
+            <th>التاريخ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var expense in Model)
+        {
+            <tr>
+                <td>@expense.Unit?.Name</td>
+                <td>@expense.Description</td>
+                <td>@expense.Amount ج.م</td>
+                <td>@expense.Date.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+﻿@model ProjectName.Models.Unit
+
+<h3>هل أنت متأكد أنك تريد حذف هذه الوحدة؟</h3>
+
+<div>
+    <strong>@Model.Name</strong>
+    <p>@Model.Description</p>
+    <img src="@Model.ImagePath" alt="صورة الوحدة" width="200" />
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="UnitId" />
+    <button type="submit" class="btn btn-danger">حذف</button>
+    <a asp-action="Index" class="btn btn-secondary">إلغاء</a>
+</form>
