@@ -32,11 +32,6 @@ Built using **ASP.NET MVC** and **SQL Server**.
 
 ---
 
-## 🖥️ Screenshots
-_(Add screenshots of your project UI here)_
-
----
-
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
